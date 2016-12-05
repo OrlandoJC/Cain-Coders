@@ -2,27 +2,27 @@
 @import url(menu.css);
 @import url(banner.css);
 
-* {
+*, h1{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   box-sizing: border-box;
 }
 
 body {
+  font-size: 13px;
   font-family: 'Open Sans', sans-serif;
-}
-
-header {
   width: 100%;
-  height: 50px;
-  background: #333;
-  color: #fff;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
+  height: 100%;
 }
+
+
+.container-fluid{
+  padding-right: 2em;
+  padding-left:  2em;
+}
+
+
 
 .contenedor {
   width: 98%;
@@ -37,11 +37,38 @@ header .contenedor {
   display: table;
 }
 
+
+
 section {
   width: 100%;
   margin-bottom: 25px;
 }
 
-#Bienvenidos {
+
+.message{
+  margin-top: 2.5em;
+    padding: 0 12em;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#Bienvenidos  {
   text-align: center;
+  height: 400px;
+}
+
+
+/*crear clases para ambos*/
+#Bienvenidos  p  {
+  margin-top: 2em;
+  font-size: 1.4em;
+}
+
+#Bienvenidos  h2  {
+  margin-top: 1em;
+  margin-top: 20px;
+  font-weight: 200;
+  font-weight: lighter;
+  color: #525252;
+  font-size: 1.9em;
 }
